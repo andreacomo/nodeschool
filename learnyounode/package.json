@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Solutions on LearnYouNode problems",
   "main": "learnyounode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andreacomo/nodeschool.git"
+  },
   "dependencies": {
     "bl": "^1.0.0",
     "concat-stream": "^1.5.0",
@@ -15,8 +19,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "nodeschool",
     "learnyounode"
   ],
   "author": "Andrea Como",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreacomo/nodeschool/issues"
+  },
+  "homepage": "https://github.com/andreacomo/nodeschool"
 }
