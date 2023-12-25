@@ -1,0 +1,111 @@
+repo_name: andreacomo/nodeschool
+report_id: 8af58fc05b8d0ba8e4f62da13819b377
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-25T20:39:22+00:00'
+requested_by: andreacomo
+provider: github
+branch: master
+detected_tools_count: 7
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source: learnyoumongo/03-find/program.js
+  last_updated_by: andrea.como
+  last_updated_on: 2015-09-15 20:53:31.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: test-anything/package.json
+  last_updated_by: andrea.como
+  last_updated_on: 2015-08-24 21:13:00.000000000 Z
+- name: Tape
+  description: 'i''m the package manager for javascript. problems? try @npm_support
+    and #npm on freenode.'
+  website_url: https://www.npmjs.com/package/tape
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3722/lejvzrnlpb308aftn31u_normal.png
+  detection_source: test-anything/package.json
+  last_updated_by: andrea.como
+  last_updated_on: 2015-08-24 21:13:00.000000000 Z
+- name: bl
+  description: 'Buffer List: collect buffers and access with a standard readable Buffer
+    interface'
+  package_url: https://www.npmjs.com/bl
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17221/default_183829c5079b84333a720d8590a328efc043ba0e.png
+  detection_source_url: https://github.com/andreacomo/nodeschool/blob/master/learnyounode/package.json
+  detection_source: learnyounode/package.json
+  last_updated_by: andrea.como
+  last_updated_on: 2015-08-11 17:32:43.000000000 Z
+  vulnerabilities:
+  - name: Memory Exposure in bl
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-wrw9-m778-g6mc
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.0.1
+  - name: Remote Memory Exposure in bl
+    cve_id: CVE-2020-8244
+    cve_url: https://github.com/advisories/GHSA-pp7h-53gx-mx7r
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.2.3
+- name: concat-stream
+  description: Writable stream that concatenates strings or binary data and calls
+    a callback with the result
+  package_url: https://www.npmjs.com/concat-stream
+  version: 1.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16269/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: https://github.com/andreacomo/nodeschool/blob/master/learnyounode/package.json
+  detection_source: learnyounode/package.json
+  last_updated_by: andrea.como
+  last_updated_on: 2015-08-11 17:32:43.000000000 Z
+  vulnerabilities:
+  - name: Memory Exposure in concat-stream
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-g74r-ffvr-5q9f
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.5.2
