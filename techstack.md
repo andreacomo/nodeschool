@@ -26,7 +26,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [andreacomo/nodeschool](https://github.com/andreacomo/nodeschool)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|7<br/>Tools used|12/25/23 <br/>Report generated|
+|8<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -91,14 +91,15 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (2)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (3)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (2)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (3)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
 |[bl](https://www.npmjs.com/bl)|v1.0.0|08/11/15|andrea.como |MIT|[](https://github.com/advisories/GHSA-wrw9-m778-g6mc) (Moderate)<br/>[CVE-2020-8244](https://github.com/advisories/GHSA-pp7h-53gx-mx7r) (Moderate)|
 |[concat-stream](https://www.npmjs.com/concat-stream)|v1.5.0|08/11/15|andrea.como |MIT|[](https://github.com/advisories/GHSA-g74r-ffvr-5q9f) (Moderate)|
+|[tape](https://www.npmjs.com/tape)|v4.2.0|08/24/15|andrea.como |MIT|N/A|
 
 <br/>
 <div align='center'>
