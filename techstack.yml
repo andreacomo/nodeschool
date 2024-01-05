@@ -2,11 +2,11 @@ repo_name: andreacomo/nodeschool
 report_id: 8af58fc05b8d0ba8e4f62da13819b377
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-25T20:39:22+00:00'
+timestamp: '2024-01-05T08:15:20+00:00'
 requested_by: andreacomo
 provider: github
 branch: master
-detected_tools_count: 7
+detected_tools_count: 8
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -17,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/andreacomo/nodeschool
   detection_source: Repo Metadata
 - name: MongoDB
   description: The database for giant ideas
@@ -26,6 +27,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/andreacomo/nodeschool/blob/master/learnyoumongo/03-find/program.js
   detection_source: learnyoumongo/03-find/program.js
   last_updated_by: andrea.como
   last_updated_on: 2015-09-15 20:53:31.000000000 Z
@@ -37,6 +39,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/andreacomo/nodeschool
   detection_source: Repo Metadata
 - name: npm
   description: The package manager for JavaScript.
@@ -46,6 +49,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/andreacomo/nodeschool/blob/master/test-anything/package.json
   detection_source: test-anything/package.json
   last_updated_by: andrea.como
   last_updated_on: 2015-08-24 21:13:00.000000000 Z
@@ -56,6 +60,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/3722/lejvzrnlpb308aftn31u_normal.png
+  detection_source_url: https://github.com/andreacomo/nodeschool/blob/master/test-anything/package.json
   detection_source: test-anything/package.json
   last_updated_by: andrea.como
   last_updated_on: 2015-08-24 21:13:00.000000000 Z
@@ -109,3 +114,17 @@ tools:
     detected_date: Aug 22
     severity: moderate
     first_patched: 1.5.2
+- name: tape
+  description: Tap-producing test harness for node and browsers
+  package_url: https://www.npmjs.com/tape
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15856/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/andreacomo/nodeschool/blob/master/test-anything/package.json
+  detection_source: test-anything/package.json
+  last_updated_by: andrea.como
+  last_updated_on: 2015-08-24 21:13:00.000000000 Z
